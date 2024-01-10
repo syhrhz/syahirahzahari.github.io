@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    margin-right: center;
+    text-align: center;
+    margin-top: 0%;
+
+}
+   
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 25;
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+    
+} 
+.navbar a :hover,
+.navbar a.active{
+    color: black;}
+
+body{
+    background:khaki ;
+}
+
+.text-box h1 {
+        margin: auto;
+        letter-spacing: 0.0015em;
+        font-size: 3em;
+        text-shadow: 0 1px #8da1ff, -1px 0 #c0cbff, -1px 2px #8da1ff, -2px 1px #c0cbff,
+            -2px 3px #8da1ff, -3px 2px #c0cbff, -3px 4px #8da1ff, -4px 3px #c0cbff,
+            -4px 5px #8da1ff, -5px 4px #c0cbff, -5px 6px #8da1ff, -6px 5px #c0cbff,
+            -6px 7px #8da1ff, -7px 6px #c0cbff, -7px 8px #8da1ff, -8px 7px #c0cbff;
+        text-align: center;
+    }
+    
+    .text-box {
+        color:black;
+    }
+    
+    .text-box h2 {
+        font-size: 42px;
+    }
+    
+.container video{
+    width: 700px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}

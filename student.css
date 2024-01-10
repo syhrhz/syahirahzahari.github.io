@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', sans-serif;
+}
+body{
+    background:khaki;
+    color: black; 
+}
+.container{
+    padding:10px 10%;
+}
+
+.navbar{
+    margin-right: center;
+    text-align: center;
+    margin-top: 0%;
+
+}
+   
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 25;
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+    
+} 
+.navbar a :hover,
+.navbar a.active{
+    color: black;
+}
+.header-text h1{
+    margin-top: 5%;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+}
+.header-text h2{
+    text-align: justify;
+}
+.header-text h2 span{
+    color:red;
+    text-align: center;
+}
+.text-box h1 {
+    margin: auto;
+    letter-spacing: 0.0015em;
+    font-size: 3em;
+    text-shadow: 0 1px palevioletred, -1px 0 #c0cbff, -1px 2px palevioletred, -2px 1px #c0cbff,
+        -2px 3px palevioletred, -3px 2px #c0cbff, -3px 4px palevioletred, -4px 3px #c0cbff,
+        -4px 5px palevioletred, -5px 4px #c0cbff, -5px 6px palevioletred, -6px 5px #c0cbff,
+        -6px 7px palevioletred, -7px 6px #c0cbff, -7px 8px palevioletred, -8px 7px #c0cbff;
+    text-align: center;
+}
+
+.text-box {
+    color:black;
+    
+}
